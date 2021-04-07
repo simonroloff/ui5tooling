@@ -1,0 +1,10 @@
+specVersion: "2.2"
+type: application
+metadata:
+  name: kora.pdf
+  copyright: |-
+   Sync App
+    * (c) Copyright 2015-${currentYear} Korasoft GmbH
+framework:
+  name: SAPUI5
+  version: 1.85.2

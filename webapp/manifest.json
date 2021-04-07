@@ -1,0 +1,60 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "kora.pdf",
+		"type": "component",
+		"i18n": "i18n/messageBundle.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {
+			"MEDIA_SRV": {
+				"uri": "/sap/opu/odata/KORA/MEDIA_SRV/",
+				"type": "OData"
+			}
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"dependencies": {
+			"minUI5Version": "1.60.1",
+			"libs": {
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "kora.pdf.i18n.messageBundle"
+				}
+			},
+			"MEDIA_SRV": {
+				"dataSource": "MEDIA_SRV",
+				"settings": {
+					"json": true,
+					"defaultCountMode": "None",
+					"useBatch": true
+				}
+			}
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "WebContent/components/kora/pdf",
+		"_version": "1.1.0"
+	}
+}
