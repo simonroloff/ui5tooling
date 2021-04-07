@@ -1,16 +1,16 @@
 # ui5tooling
 reproducing an error in the ui5 build tool
 
-git clone https://github.com/simonroloff/ui5tooling.git
+``git clone https://github.com/simonroloff/ui5tooling.git``
 
-cd ui5tooling
+``cd ui5tooling``
 
-npm install @ui5/cli
+``npm install @ui5/cli``
 
-ui5 build
---> no error. no warning.
+``ui5 build``
+=> no error. no warning.
 
-npm i -g eslint
+``npm i -g eslint``
 
-eslint ./dist/Component-preload.js
---> Parsing error: Identifier 'r' has already been declared
+``eslint ./dist/Component-preload.js``
+=> Parsing error: Identifier 'r' has already been declared
