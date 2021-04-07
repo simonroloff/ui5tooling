@@ -2,7 +2,9 @@
   "name": "pdf",
   "version": "1.3.0",
   "description": "pdf",
-  "author": "Me",
-  "license": "Apache License, Version 2.0",
-  "private": true
+  "author": "Simon R.",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.23.0"
+  }
 }
