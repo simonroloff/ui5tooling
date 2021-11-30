@@ -11,6 +11,8 @@ sap.ui.define(["sap/ui/core/UIComponent"],
 			},
 		},
 
+		
+
 		createContent: function() {
 			kora.pdf.that = this;
 
